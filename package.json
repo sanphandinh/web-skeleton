@@ -8,9 +8,13 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build:lib": "turbo run build:lib",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "start": "turbo run start"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
